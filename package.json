@@ -1,0 +1,29 @@
+{
+  "name": "dhamaka",
+  "version": "1.0.0",
+  "description": "- [✅] **Setup Environment**\r     - [✅] Install the required software: VS Code, Node.js, NPM, and MongoDB.\r     - [✅] Ensure that TypeScript is installed globally: `npm install -g typescript`.\r - [ ] **Choose Node.js Framework and MongoDB Library**\r     - [ ] Select a Node.js framework (such as Express or Nest.js).\r     - [ ] Choose a MongoDB library (such as Mongoose or MongoDB driver).\r - [ ] **Create Project Structure**\r     - [ ] Initialize a new Node.js project: `npm init`.\r     - [ ] Install necessary dependencies: `npm install express mongoose @types/express @types/mongoose typescript`.\r - [ ] **Implement Endpoints**\r     - [ ] Create TypeScript files for your server and endpoints.\r     - [ ] Implement the endpoints according to the provided specifications (GET /movies, GET /search?q={query}, POST /movies, PUT /movies/:id, DELETE /movies/:id).\r - [ ] **Connect to MongoDB**\r     - [ ] Connect your application to MongoDB using the chosen library (Mongoose or MongoDB driver).\r     - [ ] Define a schema for your movie data and create a model.\r - [ ] **Implement Authorization**\r     - [ ] Implement a basic authorization mechanism to restrict access to certain endpoints (e.g., POST, PUT, DELETE) to users with the \"admin\" role.\r - [ ] **Implement Caching**\r     - [ ] If time permits, implement caching to reduce load on the database and improve response times.\r     - [ ] You can use libraries like node-cache to implement caching in your application.\r - [ ] **Write Tests**\r     - [ ] Write unit tests and integration tests for each endpoint to ensure the API functions as expected.\r     - [ ] You can use testing frameworks like Jest or Mocha.\r     - [ ] Test both positive and negative scenarios, including edge cases.\r - [ ] **Linting and Code Quality**\r     - [ ] Use ESLint to ensure your code follows best practices and is maintainable.\r     - [ ] Configure ESLint rules according to your preferences or project standards.\r - [ ] **Documentation**\r     - [ ] Provide clear instructions on how to set up and run the API on a local machine.\r     - [ ] Write brief documentation for each endpoint, including sample requests and responses.\r     - [ ] Include any additional information necessary for understanding and using the API.\r - [ ] **Submission**\r     - [ ] Organize your code and documentation neatly.\r     - [ ] Ensure that your code is well-commented and easy to understand.\r     - [ ] Submit your completed project according to the submission guidelines provided.\r - [ ] **Review and Refactor**\r     - [ ] Review your code for any errors, bugs, or potential improvements.\r     - [ ] Refactor your code as needed to improve readability, performance, and maintainability.",
+  "main": "index.js",
+  "scripts": {
+    "start": "ts-node src/server.ts",
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/express": "^4.17.21",
+    "express": "^4.18.3",
+    "mongoose": "^8.2.1",
+    "node-cache": "^5.1.2",
+    "typescript": "^5.4.2"
+  },
+  "devDependencies": {
+    "@types/jest": "^29.5.12",
+    "@types/mongoose": "^5.11.97",
+    "@types/supertest": "^6.0.2",
+    "jest": "^29.7.0",
+    "supertest": "^6.3.4",
+    "ts-jest": "^29.1.2",
+    "ts-node": "^10.9.2"
+  }
+}
