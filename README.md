@@ -39,26 +39,6 @@ Follow these steps to set up and run the Dhamaka Movie Lobby application on your
 
 6. **Run Helper Functions**: From the root directory of the project, run the helper function script by executing `. .\src\scripts\movieFunctions.ps1` in PowerShell. This script provides PowerShell functions to interact with the server endpoints.
 
-7. **Interact with Endpoints**: Use the provided PowerShell functions (e.g., `Add-Movie`, `Get-Movies`, `Get-Movie`, etc.) to interact with the endpoints and perform various actions on movies.
-
-Sure, here's the updated section for testing and installing dependencies:
-
-### Setup Instructions
-
-Follow these steps to set up and run the Dhamaka Movie Lobby application on your local machine:
-
-1. **Clone the Repository**: Clone the Dhamaka Movie Lobby repository from GitHub to your local machine.
-
-2. **Install Dependencies**: Navigate to the root directory of the project and run `npm install` to install all required dependencies.
-
-3. **Set Up MongoDB Atlas**: Create a MongoDB Atlas account if you don't have one already. Set up a new cluster and obtain the connection URI.
-
-4. **Configure MongoDB Connection**: Replace the placeholder values `<username>`, `<password>`, `<dbname>`, and `<appname>` in the `server.ts` file with your MongoDB Atlas credentials and database information.
-
-5. **Start the Server**: Run `npm start` to start the Express.js server. The server will start listening on port 3005 by default.
-
-6. **Run Helper Functions**: From the root directory of the project, run the helper function script by executing `. .\src\scripts\movieFunctions.ps1` in PowerShell. This script provides PowerShell functions to interact with the server endpoints.
-
 7. **Run Tests**: Ensure that all endpoints are working correctly by running `npm test`. This command will execute the test suite and verify the functionality of the application.
 
 8. **Interact with Endpoints**: Use the provided PowerShell functions (e.g., `Add-Movie`, `Get-Movies`, `Get-Movie`, etc.) to interact with the endpoints and perform various actions on movies.
