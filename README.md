@@ -1,4 +1,4 @@
-**Dhamaka Movie Lobby**
+###Dhamaka Movie Lobby###
 
 Welcome to the Dhamaka Movie Lobby! This is a comprehensive movie management application built on Express.js and MongoDB Atlas. Dhamaka Movie Lobby allows users to perform various actions related to movies, such as adding, retrieving, updating, and removing movies. This README provides detailed documentation on how to set up and use the application, including architecture overview, endpoints, and setup instructions.
 
